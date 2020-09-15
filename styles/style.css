@@ -9,10 +9,9 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-header, section, h1, p, div, img, footer, a {
+header, section, h1, p, div, img, footer, a, span {
   border: 1px red solid;
 }
-
 
 .header {
   height: 100vh;
@@ -43,7 +42,6 @@ header, section, h1, p, div, img, footer, a {
   font-weight: bold;
   position: relative;
   left: 64px;
-
 }
 
 .header__subtitle {
@@ -70,7 +68,6 @@ header, section, h1, p, div, img, footer, a {
   z-index: -1;
 }
 
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
 .header__square-pic {
@@ -89,4 +86,51 @@ header, section, h1, p, div, img, footer, a {
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.description {
+  margin-top: 100px;;
+}
+
+.two-columns {
+  display: flex;
+  width: 80%;
+  align-items: flex-start;
+  min-height: auto;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.two-columns__paragraph {
+  margin-bottom: 30px;
+  margin-top: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span_ascent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0px;
 }
