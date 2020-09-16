@@ -90,6 +90,7 @@ header, section, h1, p, div, img, footer, a, span {
 
 .description {
   margin-top: 100px;;
+  display: flex;
 }
 
 .two-columns {
@@ -134,3 +135,58 @@ header, section, h1, p, div, img, footer, a, span {
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0px;
 }
+
+
+.digits {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.section-subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  justify-content: space-between;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+
