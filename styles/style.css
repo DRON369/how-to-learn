@@ -149,8 +149,8 @@ header, section, h1, p, div, img, footer, a, span {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  margin: 0 0 20px 0;
   text-align: center;
+  margin: auto;
 }
 
 .section-subtitle {
@@ -158,8 +158,8 @@ header, section, h1, p, div, img, footer, a, span {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 0 auto;
   text-align: center;
+  margin: 20px 0 0 0;
 }
 
 .table {
@@ -171,7 +171,6 @@ header, section, h1, p, div, img, footer, a, span {
 
 .table__cell {
   width: 250px;
-  margin-top: 60px;
 }
 
 .table__heading {
@@ -181,11 +180,24 @@ header, section, h1, p, div, img, footer, a, span {
 }
 
 .table__text {
-  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
+
+.table_margin_top {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
