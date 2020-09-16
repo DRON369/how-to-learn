@@ -90,15 +90,14 @@ header, section, h1, p, div, img, footer, a, span {
 
 .description {
   margin-top: 100px;;
-  display: flex;
 }
 
 .two-columns {
-  display: flex;
   width: 80%;
-  align-items: flex-start;
   min-height: auto;
+  display: flex;
   justify-content: space-between;
+  margin: auto;
 }
 
 .two-columns__brief {
@@ -113,9 +112,9 @@ header, section, h1, p, div, img, footer, a, span {
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
+
+
 }
 
 .two-columns__paragraph {
