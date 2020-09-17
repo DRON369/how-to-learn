@@ -106,9 +106,6 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-
-
-
 }
 
 .two-columns__paragraph {
@@ -321,6 +318,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: none;
   display: flex;
   align-items: center;
 }
@@ -328,6 +326,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
 
 .footer__column-heading {
