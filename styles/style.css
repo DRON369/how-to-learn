@@ -9,13 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*Сбрасываем стили для списков*/
-ul, li {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -82,9 +75,6 @@ ul, li {
   top: 64px;
   z-index: -2;
 }
-
-/* и элемента с модификатором вида ключ-значение */
-
 
 .description {
   margin-top: 100px;
@@ -161,6 +151,9 @@ ul, li {
   flex-wrap: wrap;
   width: 1100px;
   justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .table__cell {
@@ -172,15 +165,15 @@ ul, li {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 20px;
+  margin: 20px 0 0 0;
 }
-
 
 .feynman {
   background-image: url('../images/feynman.png');
