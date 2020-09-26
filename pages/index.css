@@ -67,6 +67,14 @@
 @import url('/blocks/kaufman/kaufman.css');
 @import url('/blocks/kaufman/__triangle/kaufman__triangle.css');
 
+@import url('/blocks/resources/resources.css');
+@import url('/blocks/resources/__logo-zone/resources__logo-zone.css');
+@import url('/blocks/resources/__logo/resources__logo.css');
+@import url('/blocks/resources/__logo/__log-pic/resources__logo-pic-arzamas.css');
+@import url('/blocks/resources/__logo/__log-pic/resources__logo-pic-n1.css');
+@import url('/blocks/resources/__logo/__log-pic/resources__logo-pic-polka.css');
+@import url('/blocks/resources/__logo/__log-pic/resources__logo-pic-strelka.css');
+
 @import url('/blocks/footer/footer.css');
 @import url('/blocks/footer/__column-heading/footer__column-heading.css');
 @import url('/blocks/footer/__columns/footer__columns.css');
@@ -77,9 +85,8 @@
 @import url('/blocks/footer/__author/footer__author.css');
 @import url('/blocks/footer/__social-icon/footer__social_icon.css');
 
-@import url('');
-@import url('');
-
+/*
 body, div, a, h1, h2, h3, p, span, section, blockquote, img, ul, li, article {
   border: 1px solid red;
 }
+*/
