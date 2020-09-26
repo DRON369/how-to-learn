@@ -1,5 +1,7 @@
 @import url('/vendor/normalize.css');
 
+@import url('/blocks/link-animation/link-animation.css');
+
 @import url('/blocks/page/page.css');
 
 @import url('/blocks/logo/logo.css');
@@ -85,8 +87,12 @@
 @import url('/blocks/footer/__author/footer__author.css');
 @import url('/blocks/footer/__social-icon/footer__social_icon.css');
 
+
 /*
 body, div, a, h1, h2, h3, p, span, section, blockquote, img, ul, li, article {
   border: 1px solid red;
 }
 */
+
+body, div, section {
+  border: 1px solid red;
