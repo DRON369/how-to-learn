@@ -1,8 +1,0 @@
-.link-animation {
-  transition: opacity 0.4s ease-in-out;
-}
-
-.link-animation:hover {
-  opacity: 60%;
-  cursor: pointer;
-}
