@@ -13,6 +13,14 @@
 @import url('/blocks/header/__main-illustration/header__main-illustration.css');
 @import url('/blocks/header/__square-pic/header__square-pic.css');
 
+@import url('/blocks/techniques/techniques.css');
+@import url('/blocks/cards/cards.css');
+@import url('/blocks/cards/__item/cards__item.css');
+@import url('/blocks/cards/__title/cards__title.css');
+@import url('/blocks/cards/__description/cards__desription.css');
+@import url('/blocks/cards/__image/cards__image.css');
+
+
 @import url('/blocks/description/description.css');
 
 @import url('/blocks/two-columns/two-columns.css');
@@ -52,3 +60,10 @@
 @import url('/blocks/footer/__column-link/footer__column-link.css');
 @import url('/blocks/footer/__author/footer__author.css');
 @import url('/blocks/footer/__social-icon/footer__social_icon.css');
+
+@import url('');
+@import url('');
+
+body, div, a, h1, h2, h3, p, span, section, blockquote, img, ul, li, article {
+  border: 1px solid red;
+}
